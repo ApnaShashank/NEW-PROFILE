@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Gupta - Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Shashank Gupta</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Shashank Gupta - Creative Visionary</h1>
+            <p>Bringing vibrant designs and innovation from Azamgarh.</p>
+            <a href="#portfolio" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="https://via.placeholder.com/300" alt="Shashank Gupta" class="profile-img" id="profile-img">
+            <p>I'm Shashank Gupta, a passionate designer and developer from Azamgarh. I specialize in crafting visually stunning and innovative solutions with a love for colors and creativity.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="gallery">
+            <div class="gallery-item" style="background: #ff6b6b;">
+                <img src="https://via.placeholder.com/300" alt="Shashank with Ronald McDonald" id="mcdonald-img">
+                <p>Fun Moment at McDonald’s</p>
+            </div>
+            <div class="gallery-item" style="background: #4ecdc4;">
+                <img src="https://i.imgur.com/8X0v6kE.jpg" alt="Sunset Tree">
+                <p>Sunset Serenity</p>
+            </div>
+            <div class="gallery-item" style="background: #45b7d1;">
+                <img src="https://i.imgur.com/7nD3D2m.jpg" alt="Parrot">
+                <p>Vibrant Parrot</p>
+            </div>
+            <div class="gallery-item" style="background: #96c93d;">
+                <img src="https://i.imgur.com/3e9qTzv.jpg" alt="Camera">
+                <p>Photography Passion</p>
+            </div>
+        </div>
+        <div class="upload-section">
+            <h3>Upload Your Image</h3>
+            <input type="file" id="image-upload" accept="image/*">
+            <div id="uploaded-image"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <p>Email: <a href="mailto:shashank8808108802@gmail.com">shashank8808108802@gmail.com</a></p>
+            <p>Phone: <span id="phone-number" class="hidden">7355388120</span>
+                <button id="toggle-phone" class="btn small-btn">Show Phone</button>
+            </p>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Shashank Gupta. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
